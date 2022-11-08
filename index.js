@@ -6,7 +6,7 @@ const URL = "mongodb+srv://admin:admin123@cluster0.daneayj.mongodb.net/?retryWri
 const app = express();
 
 app.use(cors({
-    origin: "https://main--dapper-mousse-d7934c.netlify.app",
+    origin: "https://dapper-mousse-d7934c.netlify.app",
 }))
 
 app.use(express.json());
